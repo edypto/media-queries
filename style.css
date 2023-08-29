@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.rwd{
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.rwd li{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    
+}
+
+.heading-1{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.heading-co{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: brown;
+    border-bottom: 1px solid #000;
+
+}
+
+@media(max-width: 1337px){
+   .heading-1{
+    color: green;
+   } 
+}
+@media(max-width: 1200px){
+    .heading-1{
+     color: yellow;
+    } 
+ }
+ @media(max-width: 960px){
+    .heading-1{
+     color: orangered;
+    } 
+ }
+ @media(max-width: 480px){
+    .heading-1{
+     color: black;
+    } 
+ }
+
+
+.heading-2{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 480px){
+   
+   .heading-2{
+    color: royalblue;
+   } 
+}
+@media (min-width: 960px){
+   
+    .heading-2{
+     color: brown;
+    } 
+ }
+ @media (min-width: 1200px){
+   
+    .heading-2{
+     color: pink;
+    } 
+ }
+ @media (min-width: 1337px){
+   
+    .heading-2{
+     color: violet;
+    } 
+ }
+
+
+
+ .heading-3{
+    font-size: 20px;
+   
+    font-weight: 700;
+ }
+
+ @media (min-width: 480px){
+    .heading-3{
+        color: orange;
+    }
+ }
+
+ @media (min-width: 1200px){
+    .heading-3{
+        color: brown;
+        font-size: 30px;
+    }
+ }
+
+ @media (min-width: 960px){
+    .heading-3{
+        color: royalblue;
+        font-size: 40px;
+    }
+ }
+
+ h3{
+    border-top: 1px solid #000;
+    text-align: center;
+    margin-top: 50px;
+ }
