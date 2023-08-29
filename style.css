@@ -8,6 +8,107 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header{
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    padding: 0 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    padding: 20px;
+}
+
+@media (min-width:680px){
+    .nav{
+        position: relative;
+        padding: 0;
+        background-color: transparent;
+        top: 0;
+        width: auto;
+        
+
+    }
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   
+    
+}
+
+
+@media (min-width:680px){
+    .nav ul{
+        flex-direction: row;
+
+    }
+}
+.nav a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-line{
+    width: 27px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+
+
+
+}
+
+.btn-line::before,
+.btn-line::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.btn-line::before{
+    top: -7px;
+}
+.btn-line::after{
+    top: 7px;
+}
+
+
+
+
 .heading{
     text-align: center;
     font-size: 30px;
